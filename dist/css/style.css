@@ -156,6 +156,21 @@ button {
   background: #000000BF;
   padding: 280px 0;
 }
+@media (max-width: 1200px) {
+  .block__tittle {
+    padding: 200px 0;
+  }
+}
+@media (max-width: 991px) {
+  .block__tittle {
+    padding: 130px 0;
+  }
+}
+@media (max-width: 768px) {
+  .block__tittle {
+    padding: 80px 0;
+  }
+}
 
 .tittle {
   font-family: "palatinolinotype_roman";
@@ -195,6 +210,13 @@ button {
   max-height: 800px;
 }
 
+.sinder {
+  width: 100%;
+  background-image: url(./../img/nn.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
 .footer__container {
   display: flex;
   flex-direction: column;
@@ -254,14 +276,6 @@ body {
 
 .main {
   flex: 1 1 auto;
-}
-
-.sinder {
-  background-size: contain;
-  background-image: url("../img/nn.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
 }
 
 .igotchu__block {

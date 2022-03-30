@@ -1,4 +1,7 @@
 
+
+
+
 .block__tittle {
     width: 50%;
     height: 100%;
@@ -8,6 +11,17 @@
     align-items: center;
     background: #000000BF;
     padding: 280px 0;
+
+    @media(max-width: 1200px){
+        padding: 200px 0;
+    }
+    @media(max-width: 991px){
+        padding: 130px 0;
+    }
+
+    @media(max-width: 768px){
+        padding: 80px 0;
+    }
 }
 .tittle {
     font-family: "palatinolinotype_roman";
@@ -40,6 +54,14 @@
 }
 .sinder__block{
     max-height: 800px;
+}
 
+
+.sinder{
+    width: 100%;
+    background-image: url(./../img/nn.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
 
 }
