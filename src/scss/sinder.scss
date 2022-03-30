@@ -1,0 +1,45 @@
+
+.block__tittle {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000000BF;
+    padding: 280px 0;
+}
+.tittle {
+    font-family: "palatinolinotype_roman";
+    font-size: 69px;
+    line-height: 87%;
+    color: #808080;
+}
+.subtitle {
+    padding: 29px 0 0 0;
+    font-size: 44px;
+    line-height: 118%;
+    color: #FFFFFF;
+    max-width: 315px;
+}
+.tittle__text {
+    padding: 29px 0 0 0;
+    font-size: 17px;
+    line-height: 188%;
+    color: #7A7A7A;
+    max-width: 315px;
+}
+.button {
+    padding: 20px 0 0 0;
+    font-size: 15px;
+    line-height: 133%;
+    color: #ffffff;
+}
+.button:hover{
+    color: #6b6363;
+}
+.sinder__block{
+    max-height: 800px;
+
+
+}

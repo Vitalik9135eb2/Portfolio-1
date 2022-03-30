@@ -1,0 +1,26 @@
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 72px;
+}
+.footer__logo {
+    padding: 90px 0 0 0;
+}
+.portfolio {
+    width: 147px;
+    height: 25px;
+}
+.footer__link {
+    padding-top: 50px;
+}
+.menu__link:hover {
+    color: #1d1919;
+}
+.footer__text {
+    padding-top: 45px;
+}
+.text{
+    font-size: 13px;
+    line-height: 185%;
+    color: #B8B8B8;
+}

@@ -1,0 +1,116 @@
+@import "./assets/_vars.scss";
+@import "./assets/_mixins.scss";
+
+
+/*reset css*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+button{background-color: #fff;}
+/*--------------------*/
+
+
+/*******general page styles**********/
+
+
+
+/*************************************/
+
+
+/******** imports style blocks**********/
+
+@import "./header.scss";
+@import "./hello.scss";
+@import "./sinder.scss";
+@import "./footer.scss";
+
+
+
+@font-face {
+	// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+	font-family: "palatinolinotype_roman"; 
+	// адрес шрифта и тип 
+	src: url("/Reset/src/fonts/palatinolinotype_roman.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	} 
+
+
+
+/****************************/
+
+[class*="__container"] {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.wrapper{
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+body{
+	font-family: roboto;
+	font-size: 12px;
+}
+.main{
+	flex: 1 1 auto;
+}
+.sinder{
+	background-size: contain;
+	background-image: url("../img/nn.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+.sinder__container{
+
+}
+// .sinder__block {
+// 	background-size: cover;
+// 	background-image: url("../img/nn.jpg"); 
+// 	height: 800px;
+// 	display: flex;
+// 	flex: 1 1 auto;
+// }
+.igotchu__block{
+	background-size: cover;
+	background-image: url("../img/2.jpg"); 
+	height: 800px;
+}
+.earth__block{
+	background-size: cover;
+	background-image: url("../img/3.jpg"); 
+	height: 800px;
+}
+
+// @media (max-width: 575.98px) { ... }
+
+// // Устройства Small (телефоны с горизонтальной ориентацией, менее 768 пикселей)
+// @media (max-width: 767.98px) { ... }
+
+// // Устройства Medium (планшеты, менее 992 пикселей)
+// @media (max-width: 991.98px) { ... }
+
+// // Устройства Large (настольные компьютеры, менее 1200 пикселей)
+// @media (max-width: 1199.98px) { ... }
+
+// // Устройства X-Large (большие настольные компьютеры, менее 1400 пикселей)
+// @media (max-width: 1399.98px) { ... }
+
+
+
+
+
